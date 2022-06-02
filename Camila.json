@@ -1,0 +1,11 @@
+{
+  "name": "Camila",
+  "version": "1.0",
+  "gameTypes": "melee, classic, 1v1",
+  "authors": "Camila Claudino",
+  "description": "My first bot",
+  "homepage": "",
+  "countryCodes": "Br",
+  "platform": "JVM",
+  "programmingLang": "Kotlin"
+}
