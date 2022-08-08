@@ -1,4 +1,4 @@
-package camila
+package Roberto
 
 import dev.robocode.tankroyale.botapi.Bot
 import dev.robocode.tankroyale.botapi.BotInfo
@@ -7,7 +7,7 @@ import dev.robocode.tankroyale.botapi.events.*
 import java.net.URI
 
 
-class Camila: Bot(BotInfo.fromFile("res/Camila.json"), URI.create("ws://localhost:7654"),"f2UkT1faAybpwyJStLq/1Q") {
+class Roberto: Bot(BotInfo.fromFile("res/Roberto.json"), URI.create("ws://localhost:7654"),"f2UkT1faAybpwyJStLq/1Q") {
     override fun run() {
         bodyColor = Color.PURPLE
         gunColor = Color.GREEN
@@ -70,7 +70,7 @@ class Camila: Bot(BotInfo.fromFile("res/Camila.json"), URI.create("ws://localhos
 
 }
 fun main(args: Array<String>){
-    Camila().start()
+    Roberto().start()
 }
 
 
